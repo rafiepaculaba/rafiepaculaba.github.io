@@ -1,0 +1,67 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+.navbar {
+    box-shadow: 2px 2px 5px #5793e0;;
+    opacity: 0.9;
+    background: #fff;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+/*** Carousel ***/
+.carousel-item {
+    height: 600px;
+}
+
+.carousel-image-1 {
+    background: url('img/i1.jpg');
+    background-size: cover;
+}
+
+.carousel-image-2 {
+    background: url('img/i2.jpg');
+    background-size: cover;
+}
+
+.carousel-image-3 {
+    background: url('img/i3.jpg');
+    background-size: cover;
+}
+/*** Carousel ***/
+
+@media(min-width: 768px) {
+    .news-input {
+        width: 70%;
+    }
+}
+
+.services-header {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.top-image {
+    width: 5rem;
+    align-items: center;
+    text-align: center;
+    display: block;
+}
+
+#gallery {
+    background-color:#e3f2fd;
+}
+
+.photo-gallery {
+    width: 380px;
+    height: 280px;
+}
+
+
+.modal-gallery {
+    width: 100%;
+}
+
+.card:hover {
+    background-color: lightgrey;
+}
